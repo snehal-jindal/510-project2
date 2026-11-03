@@ -102,7 +102,6 @@ Timing is **descriptive only**. On 24 images both solved correctly, human mean/m
 
 Convenience recruitment at Duke library; mostly young volunteers in our convenience sample, with no formal age measurements; one model and effort setting; one attempt per fresh chat; unequal time allowances; missing strings for three recorded wrong human attempts; no ordinary-text control; and a power analysis performed after collection. The design was selected after pilot exploration. The results do **not** establish an AI-proof or deployable CAPTCHA.
 
-Our written report will be linked here when finalized.
 
 ## Sources, provenance and assistance
 
