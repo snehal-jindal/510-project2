@@ -203,7 +203,7 @@ We deliberately allow a human and AI response within one pair to be related thro
 
 ## Slide 7 — live script (~65 seconds)
 
-The orange bars show the cases where humans win 15 or more times out of the 22 disagreements.
+This is the result of our analysis. The orange bars show the cases where humans win 15 or more times out of the 22 disagreements.
 Our p-value is 0.067. We set the significance level α at 0.05. Since the p-value is greater than α, we cannot reject the null hypothesis that human and AI are equally accurate at reading striped codes.
 
 We observed a 16-percentage-point lead, but the 95% confidence interval runs from minus two to plus 34 percentage points. Since it includes zero, the true difference is still uncertain.
