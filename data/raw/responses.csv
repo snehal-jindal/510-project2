@@ -1,0 +1,51 @@
+Pair ID,Image / filename,Correct code,Human response,Human time (seconds),Human outcome,AI response,AI response time (seconds),AI outcome
+1,1,WDP9V4,WDP9V4,12.24,correct,cannot read,17.00,time up/gave up
+2,2,XGXAHD,XGXAHD,6.54,correct,XGXAMD,17.00,incorrect
+3,3,ZYEU77,ZYEU77,2.02,correct,2YEU77,18.00,incorrect
+4,4,AMDD7K,,,timeout/gave up,AMBB7K,16.00,incorrect
+5,5,38QTEA,,,timeout/gave up,38QTEA,14.00,correct
+6,6,ZRT2QT,ZRT2QT,6.60,correct,ZRT2QT,22.00,correct
+7,7,7GUW9Q,7GUW9Q,6.13,correct,7GUW9Q,24.00,correct
+8,8,BBXHMY,BBXHMY,5.84,correct,BBXHMY,33.00,correct
+9,9,G4Z46P,,,timeout/gave up,G4Z46P,20.00,correct
+10,10,ZCXGSR,ZCXGSR,5.05,correct,ZCXGSR,16.00,correct
+11,11,SZR8D3,SZR8D3,4.23,correct,S4B8C3,45.00,incorrect
+12,12,ANVMRR,ANVMRR,16.95,correct,ANVMRR,27.00,correct
+13,13,WAPAXE,WAPAXE,12.14,correct,WW5AFH9AFQHE,32.00,incorrect
+14,14,3FRFMG,3FRFMG,4.87,correct,3FRFMG,18.00,correct
+15,15,HJJYZU,,,timeout/gave up,HWYZU,19.00,incorrect
+16,16,XR697H,XR697H,8.73,correct,XR697H,35.00,correct
+17,17,FFSB9Y,FFSB9Y,13.39,correct,FE5B947,24.00,incorrect
+18,18,K84823,K84823,17.95,correct,K6BG3,15.00,incorrect
+19,19,RS6BMU,,,timeout/gave up,RS6BMU,31.00,correct
+20,20,YZXKPX,,,timeout/gave up,T540JDH20,35.00,incorrect
+21,21,AEFAM3,AEFAM3,19.93,correct,AEFAM3,19.00,correct
+22,22,3T3DBX,,12.50,incorrect,3T3DBX,25.00,correct
+23,23,H35PRK,,,timeup,H345PRK,20.00,incorrect
+24,24,4E44TD,4E44TD,6.37,correct,4E44TD,33.00,correct
+25,25,95VGTZ,95VGTZ,16.26,correct,95VGTZ,32.00,correct
+26,26,URKU6E,URKU6E,6.42,correct,cannot read,41.00,time up/gave up
+27,27,9HA75M,9HA75M,5.95,correct,9HA75M,23.00,correct
+28,28,HSX65Z,HSX65Z,7.25,correct,HSX6HZ,28.00,incorrect
+29,29,4ABWZ9,,13.01,incorrect,4ABWZ9,16.00,correct
+30,30,R82FFG,,,timeout/gave up,R82FFG,24.00,correct
+31,31,KW969D,KW969D,5.47,correct,KW4029H,19.00,incorrect
+32,32,JQKX2H,JQKX2H,15.17,correct,JQKX2H,17.00,correct
+33,33,6ZWRAE,6ZWRAE,6.49,correct,6ZWRAE,14.00,correct
+34,34,6TGUA6,6TGUA6,17.93,correct,6TGUA6,16.00,correct
+35,35,R3DJUD,R3DJUD,9.07,correct,R3DJUD,19.00,correct
+36,36,92DW3Z,92DW3Z,7.49,correct,CANT READ,22.00,time up/gave up
+37,37,EWMSPW,EWMSPW,3.93,correct,EWMSPW,17.00,correct
+38,38,8KBQ77,8KBQ77,19.70,correct,8KBQ77,13.00,correct
+39,39,5VRPPC,5VRPPC,7.73,correct,5VRPPC,8.00,correct
+40,40,N5MEZV,N5MEZV,3.85,correct,N5MEZV,7.00,correct
+41,41,8FW4UU,,17.93,incorrect,8FW4UU,17.00,correct
+42,42,YWFXJG,YWFXJG,14.53,correct,YWFOJG,32.00,incorrect
+43,43,SNJVMG,SNJVMG,7.97,correct,SNJVMG,9.00,correct
+44,44,2UACKM,2UACKM,8.43,correct,2UACKM,8.00,correct
+45,45,QMU2VA,QMU2VA,8.24,correct,QMU2VA,9.00,correct
+46,46,MFZEU5,MFZEU5,7.09,correct,MHZEU5,13.00,incorrect
+47,47,UPHNJT,UPHNJT,6.69,correct,CANT READ,15.00,time up/gave up
+48,48,MHD958,MHD958,15.12,correct,MHD958,27.00,correct
+49,49,Z9SKPK,Z9SKPK,9.52,correct,Z95KPK,22.00,incorrect
+50,50,FHZWW8,FHZWW8,13.16,correct,FHZWW8,23.00,correct

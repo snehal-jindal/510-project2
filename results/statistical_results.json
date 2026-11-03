@@ -1,0 +1,37 @@
+{
+  "n_pairs": 50,
+  "human_correct": 39,
+  "ai_correct": 31,
+  "human_accuracy": 0.78,
+  "ai_accuracy": 0.62,
+  "paired_counts": {
+    "both_correct": 24,
+    "human_only": 15,
+    "ai_only": 7,
+    "neither_correct": 4
+  },
+  "accuracy_difference": 0.16,
+  "paired_bootstrap_95_ci": [
+    -0.02,
+    0.34
+  ],
+  "human_accuracy_wilson_95": [
+    0.6475845041874634,
+    0.8724608402978559
+  ],
+  "ai_accuracy_wilson_95": [
+    0.4815044693099298,
+    0.7413721068980641
+  ],
+  "exact_mcnemar_one_sided_p": 0.06690025329589844,
+  "exact_mcnemar_two_sided_p": 0.13380050659179688,
+  "matched_odds_ratio": 2.142857142857143,
+  "matched_odds_ratio_exact_95_ci": [
+    0.8224083888912926,
+    6.212586286285115
+  ],
+  "alpha": 0.05,
+  "decision": "fail_to_reject",
+  "bootstrap_resamples": 200000,
+  "bootstrap_seed": 20261102
+}

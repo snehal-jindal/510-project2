@@ -1,0 +1,51 @@
+pair_id,image_id,correct_code,human_response,human_time_seconds,human_recorded_outcome,ai_response,ai_time_seconds,ai_recorded_outcome,human_correct,ai_correct,accuracy_difference,paired_outcome,code_length,digit_count,letter_count,human_response_missing,human_time_missing,human_failure_string_unavailable,human_no_answer,ai_abstained,shared_success_timing_eligible,ai_edit_distance
+1,1,WDP9V4,WDP9V4,12.24,correct,cannot read,17.0,time up/gave up,1,0,1,human_only,6,2,4,0,0,0,0,1,0,
+2,2,XGXAHD,XGXAHD,6.54,correct,XGXAMD,17.0,incorrect,1,0,1,human_only,6,0,6,0,0,0,0,0,0,1
+3,3,ZYEU77,ZYEU77,2.02,correct,2YEU77,18.0,incorrect,1,0,1,human_only,6,2,4,0,0,0,0,0,0,1
+4,4,AMDD7K,,,timeout/gave up,AMBB7K,16.0,incorrect,0,0,0,neither_correct,6,1,5,1,1,0,1,0,0,2
+5,5,38QTEA,,,timeout/gave up,38QTEA,14.0,correct,0,1,-1,ai_only,6,2,4,1,1,0,1,0,0,0
+6,6,ZRT2QT,ZRT2QT,6.6,correct,ZRT2QT,22.0,correct,1,1,0,both_correct,6,1,5,0,0,0,0,0,1,0
+7,7,7GUW9Q,7GUW9Q,6.13,correct,7GUW9Q,24.0,correct,1,1,0,both_correct,6,2,4,0,0,0,0,0,1,0
+8,8,BBXHMY,BBXHMY,5.84,correct,BBXHMY,33.0,correct,1,1,0,both_correct,6,0,6,0,0,0,0,0,1,0
+9,9,G4Z46P,,,timeout/gave up,G4Z46P,20.0,correct,0,1,-1,ai_only,6,3,3,1,1,0,1,0,0,0
+10,10,ZCXGSR,ZCXGSR,5.05,correct,ZCXGSR,16.0,correct,1,1,0,both_correct,6,0,6,0,0,0,0,0,1,0
+11,11,SZR8D3,SZR8D3,4.23,correct,S4B8C3,45.0,incorrect,1,0,1,human_only,6,2,4,0,0,0,0,0,0,3
+12,12,ANVMRR,ANVMRR,16.95,correct,ANVMRR,27.0,correct,1,1,0,both_correct,6,0,6,0,0,0,0,0,1,0
+13,13,WAPAXE,WAPAXE,12.14,correct,WW5AFH9AFQHE,32.0,incorrect,1,0,1,human_only,6,0,6,0,0,0,0,0,0,8
+14,14,3FRFMG,3FRFMG,4.87,correct,3FRFMG,18.0,correct,1,1,0,both_correct,6,1,5,0,0,0,0,0,1,0
+15,15,HJJYZU,,,timeout/gave up,HWYZU,19.0,incorrect,0,0,0,neither_correct,6,0,6,1,1,0,1,0,0,2
+16,16,XR697H,XR697H,8.73,correct,XR697H,35.0,correct,1,1,0,both_correct,6,3,3,0,0,0,0,0,1,0
+17,17,FFSB9Y,FFSB9Y,13.39,correct,FE5B947,24.0,incorrect,1,0,1,human_only,6,1,5,0,0,0,0,0,0,4
+18,18,K84823,K84823,17.95,correct,K6BG3,15.0,incorrect,1,0,1,human_only,6,5,1,0,0,0,0,0,0,4
+19,19,RS6BMU,,,timeout/gave up,RS6BMU,31.0,correct,0,1,-1,ai_only,6,1,5,1,1,0,1,0,0,0
+20,20,YZXKPX,,,timeout/gave up,T540JDH20,35.0,incorrect,0,0,0,neither_correct,6,0,6,1,1,0,1,0,0,9
+21,21,AEFAM3,AEFAM3,19.93,correct,AEFAM3,19.0,correct,1,1,0,both_correct,6,1,5,0,0,0,0,0,1,0
+22,22,3T3DBX,,12.5,incorrect,3T3DBX,25.0,correct,0,1,-1,ai_only,6,2,4,1,0,1,0,0,0,0
+23,23,H35PRK,,,timeup,H345PRK,20.0,incorrect,0,0,0,neither_correct,6,2,4,1,1,0,1,0,0,1
+24,24,4E44TD,4E44TD,6.37,correct,4E44TD,33.0,correct,1,1,0,both_correct,6,3,3,0,0,0,0,0,1,0
+25,25,95VGTZ,95VGTZ,16.26,correct,95VGTZ,32.0,correct,1,1,0,both_correct,6,2,4,0,0,0,0,0,1,0
+26,26,URKU6E,URKU6E,6.42,correct,cannot read,41.0,time up/gave up,1,0,1,human_only,6,1,5,0,0,0,0,1,0,
+27,27,9HA75M,9HA75M,5.95,correct,9HA75M,23.0,correct,1,1,0,both_correct,6,3,3,0,0,0,0,0,1,0
+28,28,HSX65Z,HSX65Z,7.25,correct,HSX6HZ,28.0,incorrect,1,0,1,human_only,6,2,4,0,0,0,0,0,0,1
+29,29,4ABWZ9,,13.01,incorrect,4ABWZ9,16.0,correct,0,1,-1,ai_only,6,2,4,1,0,1,0,0,0,0
+30,30,R82FFG,,,timeout/gave up,R82FFG,24.0,correct,0,1,-1,ai_only,6,2,4,1,1,0,1,0,0,0
+31,31,KW969D,KW969D,5.47,correct,KW4029H,19.0,incorrect,1,0,1,human_only,6,3,3,0,0,0,0,0,0,4
+32,32,JQKX2H,JQKX2H,15.17,correct,JQKX2H,17.0,correct,1,1,0,both_correct,6,1,5,0,0,0,0,0,1,0
+33,33,6ZWRAE,6ZWRAE,6.49,correct,6ZWRAE,14.0,correct,1,1,0,both_correct,6,1,5,0,0,0,0,0,1,0
+34,34,6TGUA6,6TGUA6,17.93,correct,6TGUA6,16.0,correct,1,1,0,both_correct,6,2,4,0,0,0,0,0,1,0
+35,35,R3DJUD,R3DJUD,9.07,correct,R3DJUD,19.0,correct,1,1,0,both_correct,6,1,5,0,0,0,0,0,1,0
+36,36,92DW3Z,92DW3Z,7.49,correct,CANT READ,22.0,time up/gave up,1,0,1,human_only,6,3,3,0,0,0,0,1,0,
+37,37,EWMSPW,EWMSPW,3.93,correct,EWMSPW,17.0,correct,1,1,0,both_correct,6,0,6,0,0,0,0,0,1,0
+38,38,8KBQ77,8KBQ77,19.7,correct,8KBQ77,13.0,correct,1,1,0,both_correct,6,3,3,0,0,0,0,0,1,0
+39,39,5VRPPC,5VRPPC,7.73,correct,5VRPPC,8.0,correct,1,1,0,both_correct,6,1,5,0,0,0,0,0,1,0
+40,40,N5MEZV,N5MEZV,3.85,correct,N5MEZV,7.0,correct,1,1,0,both_correct,6,1,5,0,0,0,0,0,1,0
+41,41,8FW4UU,,17.93,incorrect,8FW4UU,17.0,correct,0,1,-1,ai_only,6,2,4,1,0,1,0,0,0,0
+42,42,YWFXJG,YWFXJG,14.53,correct,YWFOJG,32.0,incorrect,1,0,1,human_only,6,0,6,0,0,0,0,0,0,1
+43,43,SNJVMG,SNJVMG,7.97,correct,SNJVMG,9.0,correct,1,1,0,both_correct,6,0,6,0,0,0,0,0,1,0
+44,44,2UACKM,2UACKM,8.43,correct,2UACKM,8.0,correct,1,1,0,both_correct,6,1,5,0,0,0,0,0,1,0
+45,45,QMU2VA,QMU2VA,8.24,correct,QMU2VA,9.0,correct,1,1,0,both_correct,6,1,5,0,0,0,0,0,1,0
+46,46,MFZEU5,MFZEU5,7.09,correct,MHZEU5,13.0,incorrect,1,0,1,human_only,6,1,5,0,0,0,0,0,0,1
+47,47,UPHNJT,UPHNJT,6.69,correct,CANT READ,15.0,time up/gave up,1,0,1,human_only,6,0,6,0,0,0,0,1,0,
+48,48,MHD958,MHD958,15.12,correct,MHD958,27.0,correct,1,1,0,both_correct,6,3,3,0,0,0,0,0,1,0
+49,49,Z9SKPK,Z9SKPK,9.52,correct,Z95KPK,22.0,incorrect,1,0,1,human_only,6,1,5,0,0,0,0,0,0,1
+50,50,FHZWW8,FHZWW8,13.16,correct,FHZWW8,23.0,correct,1,1,0,both_correct,6,1,5,0,0,0,0,0,1,0
