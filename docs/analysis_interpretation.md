@@ -49,7 +49,7 @@ For independent pairs, assume human-only success probability 0.30 and AI-only su
 | .30 / .10 | 20 points | 67.9% | 67 |
 | .35 / .10 | 25 points | 82.2% | 48 |
 
-These are hypothetical scenarios **calculated after data collection**, not observed power offered as new evidence or an advance justification for 50. The 20-point planning target is not substituted for the observed 16-point estimate. A new study should select meaningful assumptions and sample size prospectively; 17 more observations are not guaranteed to produce significance. Do not continue this dataset until p falls below .05.
+These are hypothetical scenarios **calculated after data collection**, not observed power offered as new evidence or an advance justification for 50. The 20-point planning target is not substituted for the observed 16-point estimate. A new study should select meaningful assumptions and sample size prospectively; 17 more observations are not guaranteed to produce significance. The follow-up should use a sample size and stopping rule chosen in advance.
 
 ![Planning curve](../results/figures/power_planning.png)
 

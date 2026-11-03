@@ -12,14 +12,16 @@ We ran a paired experiment: 50 volunteers each read one striped six-character co
 
 | What you need | Where to find it |
 | --- | --- |
-| Presentation | [PDF](presentation/slides.pdf) · [editable PPTX](presentation/slides.pptx) · [speaker notes](presentation/speaker_notes.md) · [live Google Slides](https://docs.google.com/presentation/d/1Af7olgmwciMVBlFlFfpIgUBnkoL-c-8pqziG3H6_AFM/edit) · [Read the full article on Byline](https://bylinedocs.com/document/b6a96d1a-6d37-481b-a02c-f650e5663904)|
+| Written report | [Read on Byline](https://bylinedocs.com/document/b6a96d1a-6d37-481b-a02c-f650e5663904) |
+| Interactive project | [ant.ai playground](https://snehal-jindal.github.io/xai-project1-ant.ai/) |
+| Presentation | [PDF](presentation/slides.pdf) · [editable PPTX](presentation/slides.pptx) · [speaker notes](presentation/speaker_notes.md) · [live Google Slides](https://docs.google.com/presentation/d/1Af7olgmwciMVBlFlFfpIgUBnkoL-c-8pqziG3H6_AFM/edit) |
 | Full statistical interpretation | [Methods, results and limitations](docs/analysis_interpretation.md) |
 | Experimental design | [Protocol](docs/study_protocol.md) |
 | **Feature engineering script** | **[scripts/feature_engineering.py](scripts/feature_engineering.py)** · [feature definitions](docs/feature_engineering.md) |
 | Data | [raw](data/raw/responses.csv) · [cleaned](data/cleaned/responses_cleaned.csv) · [engineered features](data/processed/features.csv) · [dictionary](data/data_dictionary.md) |
 | Exact 50 inputs | [PNG images](data/images/) · [checksummed manifest](data/image_manifest.json) |
 | Sample-size / power calculations | [script](scripts/power_analysis.py) · [scenarios](results/power_sensitivity.csv) |
-| Submission and collaboration status | [Rubric checklist](docs/submission_checklist.md) · [contribution workflow](CONTRIBUTING.md) |
+| Project guide | [Submission files](docs/submission_checklist.md) · [contribution workflow](CONTRIBUTING.md) |
 
 ## Research question and hypotheses
 
@@ -31,7 +33,7 @@ Can humans read these striped codes more accurately than the selected model unde
 
 One matched pair is an image, its human response and its AI response. There are **50 paired units**, not 100 independent observations. Humans had a 20-second limit; AI had no equivalent limit. This operational comparison must not be generalized to equal-time reading ability or all models.
 
-## Reproduce in one command
+## Reproduce the analysis
 
 Requires **Python 3.10 or newer**. No model API key, Google login, GPU, Node installation or paid service is needed to reproduce the analysis from the supplied observations.
 
@@ -66,17 +68,17 @@ The pipeline regenerates:
 
 | Script | Purpose |
 | --- | --- |
-| `export_data.py` | Converts the frozen connector export to CSV; it did not conduct the human experiment |
+| `export_data.py` | Exports the archived response table to CSV |
 | `clean_data.py` | Standardizes IDs, case and numerical representation; retains recorded outcomes |
 | **`feature_engineering.py`** | **Derives analysis-ready variables explicitly; see [documentation](docs/feature_engineering.md)** |
 | `analyze_accuracy.py` | Exact one-/two-sided McNemar calculations, Wilson intervals, paired bootstrap interval and matched odds ratio |
 | `summarize_timing.py` | Mean, median, spread and sample size; shared-success and own-success subsets kept separate |
-| `power_analysis.py` | Reproducible hypothetical planning scenarios, not a claim of advance power justification |
+| `power_analysis.py` | Sample size and power scenarios for future studies |
 | `make_figures.py` | Figures from generated data/results, including a clearly labeled exploratory digit plot |
 | `validate.py` | Integrity and presentation-agreement checks |
 | `run_analysis.py` | Executes the full pipeline in dependency order |
 
-The original trials were conducted manually. Collection software from the earlier ant.ai project is archived separately in [collection/](collection/), pinned to its original commit. Reproduction of the **analysis** does not repeat human recruitment or new ChatGPT trials. Do not confuse those processes.
+The original trials were conducted manually. Collection software from the earlier ant.ai project is archived separately in [collection/](collection/), pinned to its original commit. The pipeline analyzes the archived observations; collecting new responses is a separate step.
 
 ## Main findings
 
@@ -90,13 +92,13 @@ The original trials were conducted manually. Collection software from the earlie
 | One-sided exact McNemar p | 0.0669003 |
 | Two-sided exact McNemar p, for transparency | 0.133801 |
 
-See [machine-readable results](results/statistical_results.json) and [plain-English interpretation](docs/analysis_interpretation.md). The two p-values describe the same paired comparison; they are not independent discoveries or a choice made to obtain significance.
+See [machine-readable results](results/statistical_results.json) and [plain-English interpretation](docs/analysis_interpretation.md). Both p-values describe the same paired comparison. Our directional hypothesis uses the one-sided test.
 
 ![All 50 paired outcomes](results/figures/paired_outcomes.png)
 
 ![Time description for human and AI](results/figures/timing_descriptive.png)
 
-Timing is **descriptive only**. On 24 images both solved correctly, human mean/median were 9.98/8.11 seconds and AI mean/median were 19.54/18.50 seconds. AI values came from the interface’s “Worked for…” label, not a matching human stopwatch. A timing significance test would not fix this measurement problem.
+Timing is **descriptive only**. On 24 images both solved correctly, human mean/median were 9.98/8.11 seconds and AI mean/median were 19.54/18.50 seconds. AI values came from the interface’s “Worked for…” label, not a matching human stopwatch. These differences prevent a direct inference about reading speed.
 
 ## Limitations
 
@@ -109,4 +111,4 @@ Convenience recruitment at Duke library; mostly young volunteers in our convenie
 - [References and credits](docs/references.md).
 - [Cleaning decisions](docs/cleaning_log.md).
 - We used AI assistance for coding, statistical checks and presentation preparation.
-- [Reuse notice](NOTICE.md). Public visibility is not a blanket license for third-party materials.
+- [Reuse notice](NOTICE.md). Third-party materials retain their original terms.

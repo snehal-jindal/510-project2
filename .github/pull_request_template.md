@@ -1,11 +1,11 @@
-## Contribution
-Describe the concrete change and why it matters to this study.
+## Changes
 
-## Validation
-- [ ] Ran `python -m unittest discover -s tests -v`
-- [ ] Ran `python scripts/run_analysis.py`
-- [ ] Checked interpretation against the data and slides
-- [ ] No invented observations, missing-value imputations or retrospective claims of preregistration
+Describe what changed and why.
+
+## Checks
+
+List the checks performed. For analysis changes, run the tests and analysis pipeline and check that the report and slides agree with the results.
 
 ## Review
-Request the other partner's review, address comments, and resolve discussions before merging.
+
+Request the other team member’s review and address their feedback before merging.

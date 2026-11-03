@@ -1,23 +1,26 @@
-# Rubric map and remaining team actions
+# Project guide
 
-We use this checklist to keep our submission organized.
+## Submission links
 
-| Requirement | Location / status |
+- [Written report](https://bylinedocs.com/document/b6a96d1a-6d37-481b-a02c-f650e5663904)
+- [Presentation](https://docs.google.com/presentation/d/1Af7olgmwciMVBlFlFfpIgUBnkoL-c-8pqziG3H6_AFM/preview)
+- [ant.ai playground](https://snehal-jindal.github.io/xai-project1-ant.ai/)
+
+## Supporting files
+
+| Topic | Location |
 | --- | --- |
-| Research question and null/alternative | README; protocol; slides 1–4 |
-| Variables, matching, selection, control limitations | `docs/study_protocol.md` |
-| Power assumptions, software and calculation | `scripts/power_analysis.py`; results CSVs; analysis interpretation. **Retrospective**, not advance justification |
-| Data collection code / procedures | Manual collection documented; actual relevant renderer source archived in `collection/`; export script included |
-| Cleaning scripts and raw/cleaned data | `scripts/clean_data.py`; `data/raw/`; `data/cleaned/`; audit log |
-| Explicit feature engineering | `scripts/feature_engineering.py`; `docs/feature_engineering.md`; `data/processed/features.csv`; README link |
-| Tests, p-values, confidence intervals, effect sizes | `scripts/analyze_accuracy.py`; statistical JSON; interpretation document |
-| Assumptions, limits, conclusion, references | `docs/analysis_interpretation.md`; protocol; references |
-| Timing analysis | Descriptive summaries and distributions; no unsupported speed claim |
-| Reproduction instructions and validation | README; one-command pipeline; automated checks |
-| Presentation, <=8 minutes | PDF/PPTX and notes; 10 slides; ~7½-minute target, **team must rehearse** |
-| Written report via shareable link | **Team will add separately; not yet supplied** |
-| Each member authors at least one PR | [Pull requests](https://github.com/snehal-jindal/510-project2/pulls?q=is%3Apr) track our individual contributions |
-| Proper peer review | Review discussions are recorded in our pull requests |
-| Online-cohort video if applicable | Team must provide if applicable; no cohort assumption made |
+| Research question and hypotheses | README and written report |
+| Experimental design and collection | [Study protocol](study_protocol.md) |
+| Raw responses and exact images | `data/raw/` and `data/images/` |
+| Cleaning decisions | [Cleaning log](cleaning_log.md) and `scripts/clean_data.py` |
+| Feature engineering | [Feature definitions](feature_engineering.md) and `scripts/feature_engineering.py` |
+| Tests, effect sizes and confidence intervals | `scripts/analyze_accuracy.py` and `results/statistical_results.json` |
+| Power scenarios calculated after collection | `scripts/power_analysis.py` and `results/power_sensitivity.csv` |
+| Results and limitations | [Statistical interpretation](analysis_interpretation.md) |
+| Reproduction | README and `scripts/run_analysis.py` |
+| Slides and speaking notes | `presentation/` |
+| Sources | [References](references.md) and [provenance](provenance.md) |
+| Collaboration | [Pull requests](https://github.com/snehal-jindal/510-project2/pulls?q=is%3Apr) and [workflow](../CONTRIBUTING.md) |
 
-Our report will include its own title/abstract, motivation, hypotheses, methods, power chronology, data cleaning, analysis, interpretation, limitations, conclusion and references. Repository documentation supplies supporting material, but is not represented as the team’s final report submission.
+The written report is available through the link above. The repository contains the underlying data, analysis and supporting documentation.
