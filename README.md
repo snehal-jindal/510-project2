@@ -12,7 +12,7 @@ We ran a paired experiment: 50 volunteers each read one striped six-character co
 
 | What you need | Where to find it |
 | --- | --- |
-| Presentation | [PDF](presentation/slides.pdf) · [editable PPTX](presentation/slides.pptx) · [speaker notes](presentation/speaker_notes.md) · [live Google Slides](https://docs.google.com/presentation/d/1Af7olgmwciMVBlFlFfpIgUBnkoL-c-8pqziG3H6_AFM/edit) |
+| Presentation | [PDF](presentation/slides.pdf) · [editable PPTX](presentation/slides.pptx) · [speaker notes](presentation/speaker_notes.md) · [live Google Slides](https://docs.google.com/presentation/d/1Af7olgmwciMVBlFlFfpIgUBnkoL-c-8pqziG3H6_AFM/edit) · [Read the full article on Byline](https://bylinedocs.com/document/b6a96d1a-6d37-481b-a02c-f650e5663904)|
 | Full statistical interpretation | [Methods, results and limitations](docs/analysis_interpretation.md) |
 | Experimental design | [Protocol](docs/study_protocol.md) |
 | **Feature engineering script** | **[scripts/feature_engineering.py](scripts/feature_engineering.py)** · [feature definitions](docs/feature_engineering.md) |

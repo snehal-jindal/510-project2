@@ -152,7 +152,13 @@ If this interval-building procedure were repeated on many comparable samples und
 
 ## Slide 6 — live script (~50 seconds)
 
-Each square is one of our 50 images, grouped by outcome. Both readers were correct on 24 images, and both failed on four. The mint squares are the 15 images only the human solved. The peach squares are the seven only AI solved. Those 22 disagreements tell us which side performed better. We use an exact McNemar test because the results are paired and each is either correct or unsuccessful. If accuracy were equal, disagreements should not systematically favor one side. We ask how unusual 15 human wins would be out of 22 disagreements.
+The 50 boxes here represent the 50 images we use. The 24 grey boxes here means there 24 images that both human and AI got correct. The blue squares show the 15 images only the human got right. The orange squares show the seven images only AI got right. And the 4 black boxes represent neither of them read correct.
+
+To compare the results for human and AI, we focus on the images where one got it right and the other got it wrong. There were 22 of these images.
+
+We used an exact McNemar test to see whether this difference was statistically significant. This test fits our data because the human and AI read the same images, and each answer was scored as correct or incorrect.
+This test gives us the probability that humans would win at least 15 out of 22 disagreements if humans and AI were equally accurate.
+
 
 ### Study guide and Q&A
 
@@ -197,7 +203,11 @@ We deliberately allow a human and AI response within one pair to be related thro
 
 ## Slide 7 — live script (~65 seconds)
 
-This chart shows what the human-win count could look like if neither side had an accuracy advantage, given 22 disagreements. The observed count is 15. The highlighted bars are outcomes at least that favorable to humans; together their probability is 0.067. That is above the five-percent cutoff, so the test is not conclusive. Does that mean the difference is just noise? No. We observed a lead, but cannot confidently separate a repeatable advantage from sampling variation. The estimated gap is 16 points, with an approximate 95 percent paired interval from minus two to plus 34. The honest conclusion is uncertainty—not proven equality, and not proven human superiority.
+The orange bars show the cases where humans win 15 or more times out of the 22 disagreements.
+Our p-value is 0.067. We set the significance level α at 0.05. Since the p-value is greater than α, we cannot reject the null hypothesis that human and AI are equally accurate at reading striped codes.
+
+We observed a 16-percentage-point lead, but the 95% confidence interval runs from minus two to plus 34 percentage points. Since it includes zero, the true difference is still uncertain.
+
 
 ### Study guide and Q&A
 
@@ -248,7 +258,10 @@ Adding more tests would not make the evidence stronger. The academic strength is
 
 ## Slide 8 — live script (~45 seconds)
 
-The dots show recorded times for the same 24 images both readers solved correctly. The boxes summarize their distributions; the line inside each box is the median. Human median time was 8.11 seconds and AI median time was 18.50; the table also shows means. But the clocks differ. Human time was measured directly, while AI time came from the interface label. Humans also stopped at 20 seconds and AI did not. We therefore describe these numbers without treating them as a fair reading-speed contest or adding a misleading speed-test p-value.
+As we mentioned before, we recorded the time when human and AI read. The dots in the box plot show recorded times for the same 24 images both human and AI read correctly. The line inside each box is the median. Human median time was 8.11 seconds and AI median time was 18.50.
+
+But the clocks differ. Human time was measured directly, while AI time came from the interface label. Humans also stopped at 20 seconds and AI did not. So, we didn’t use this data during calculation
+
 
 ### Study guide and Q&A
 
@@ -291,7 +304,10 @@ Their recorded times were lower on the shared-success subset. Our measurement pr
 
 ## Slide 9 — live script (~45 seconds)
 
-Power asks how often a study would detect a specified real advantage. This curve is an illustrative future-planning scenario, not another result from the participants. If human-only success occurred on 30 percent of images and AI-only success on ten percent—a 20-point advantage—50 pairs would have about 68 percent power. Around 67 pairs would reach 80 percent power under those assumptions. This calculation happened after collection, so it cannot justify our sample size in advance. It explains why sample size deserves planning, rather than promising that more data would prove our hypothesis.
+After collecting the data, we explored sample-size requirements for a future study. We assumed that humans alone would read 30% of the images correctly, while AI alone would read 10% correctly. That gives humans a 20-percentage-point advantage.
+
+Under these assumptions, approximately 67 image pairs would be needed for 80% power. A sample of 50 pairs would provide approximately 68% power.
+
 
 ### Study guide and Q&A
 
