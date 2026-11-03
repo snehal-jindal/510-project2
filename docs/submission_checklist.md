@@ -16,7 +16,7 @@
 | Cleaning decisions | [Cleaning log](cleaning_log.md) and `scripts/clean_data.py` |
 | Feature engineering | [Feature definitions](feature_engineering.md) and `scripts/feature_engineering.py` |
 | Tests, effect sizes and confidence intervals | `scripts/analyze_accuracy.py` and `results/statistical_results.json` |
-| Power scenarios calculated after collection | `scripts/power_analysis.py` and `results/power_sensitivity.csv` |
+| Power assumptions and sample size decision | `scripts/power_analysis.py` and `results/power_sensitivity.csv` |
 | Results and limitations | [Statistical interpretation](analysis_interpretation.md) |
 | Reproduction | README and `scripts/run_analysis.py` |
 | Slides and speaking notes | `presentation/` |

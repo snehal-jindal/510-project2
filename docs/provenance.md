@@ -1,6 +1,6 @@
 # Provenance and frozen assets
 
-Snapshot/export date: **November 2, 2026** (America/New_York). This is an export date, not a verified collection date.
+Data snapshot/export date: **November 2, 2026** (America/New_York). This is an export date, not a verified collection date. Presentation exports were refreshed on **November 3, 2026** from the live deck.
 
 | Source | Archived here |
 | --- | --- |

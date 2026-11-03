@@ -100,9 +100,13 @@ See [machine-readable results](results/statistical_results.json) and [plain-Engl
 
 Timing is **descriptive only**. On 24 images both solved correctly, human mean/median were 9.98/8.11 seconds and AI mean/median were 19.54/18.50 seconds. AI values came from the interface’s “Worked for…” label, not a matching human stopwatch. These differences prevent a direct inference about reading speed.
 
+## Sample size planning
+
+Before collection, we considered a 20 percentage point advantage: human-only success on 30% of images and AI-only success on 10%. For a one-sided exact McNemar test at a 5% significance level, 50 independent pairs provide 67.85% power. The first sample size reaching 80% is 67 pairs; 68 pairs provide 81.10%. We chose 50 pairs for feasibility, accepting the lower planned power. These calculations use assumed probabilities, not the observed 16 percentage point difference. See the [power script](scripts/power_analysis.py) and [methods](docs/analysis_interpretation.md).
+
 ## Limitations
 
-Convenience recruitment at Duke library; mostly young volunteers in our convenience sample, with no formal age measurements; one model and effort setting; one attempt per fresh chat; unequal time allowances; missing strings for three recorded wrong human attempts; no ordinary-text control; and a power analysis performed after collection. The design was selected after pilot exploration. The results do **not** establish an AI-proof or deployable CAPTCHA.
+Convenience recruitment at Duke library; mostly young volunteers in our convenience sample, with no formal age measurements; one model and effort setting; one attempt per fresh chat; unequal time allowances; missing strings for three recorded wrong human attempts; no ordinary-text control; and a sample size below the conventional 80% power target under our planning assumptions. The design was selected after pilot exploration. The results do **not** establish an AI-proof or deployable CAPTCHA.
 
 
 ## Sources, provenance and assistance

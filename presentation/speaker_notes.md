@@ -304,9 +304,9 @@ Their recorded times were lower on the shared-success subset. Our measurement pr
 
 ## Slide 9 — live script (~45 seconds)
 
-After collecting the data, we explored sample-size requirements for a future study. We assumed that humans alone would read 30% of the images correctly, while AI alone would read 10% correctly. That gives humans a 20-percentage-point advantage.
+Before collecting the data, we considered sample-size requirements. We assumed that humans alone would read 30% of the images correctly, while AI alone would read 10% correctly. That gives humans a 20-percentage-point advantage.
 
-Under these assumptions, approximately 67 image pairs would be needed for 80% power. A sample of 50 pairs would provide approximately 68% power.
+Under these assumptions, the calculation first reaches 80% power at 67 pairs; choosing 68 pairs gives about 81%. We chose 50 pairs for feasibility, accepting approximately 68% planned power.
 
 
 ### Study guide and Q&A
@@ -315,7 +315,7 @@ POWER IN PLAIN ENGLISH
 Power is the probability that a study detects an effect, using its prespecified test and significance threshold, if a particular effect really exists. An 80% power target means that, in repeated comparable studies with the assumed effect, about eight in ten would reject the null. It does not mean that this particular result has an 80% probability of being true, or that 80% of participants succeed.
 
 WHAT WE CAN HONESTLY SAY ABOUT N = 50
-The sample size was a feasible target under the collection deadline. We do not have a documented completed prospective power calculation justifying 50 before collection. Therefore, do not label the current calculation a priori or imply that a power target was met in advance. This is a retrospective sensitivity/planning analysis with explicitly hypothetical assumptions. It is a useful component of the project, but it does not erase the design limitation.
+We considered power before collection and selected 50 pairs as feasible within the collection deadline. Under human-only success of 30% and AI-only success of 10%, 50 pairs provide 67.85% power. This is below the conventional 80% target. The minimum sample size reaching 80% is 67 pairs, and a choice of 68 gives 81.10%. Choosing 50 means accepting a higher chance of missing the assumed advantage. It does not change the 5% significance threshold or establish that the assumed advantage actually exists.
 
 SPECIFIC ASSUMPTIONS
 Assume independent pairs and probabilities 0.30 for human-only success and 0.10 for AI-only success. The remaining 0.60 are agreements; for this exact test's power, their allocation between both correct and both unsuccessful is not needed. The implied human-minus-AI difference is 0.20, or 20 percentage points. The disagreement probability is 0.40. Conditional on a disagreement, the probability it favors humans is 0.30 / 0.40 = 0.75. Use the same one-sided exact McNemar test at alpha = 0.05.
@@ -342,13 +342,13 @@ POWER IS NOT THE SAME AS A P-VALUE
 A p-value looks at the observed result under a null model. Power looks at the chance of a future decision under a specified alternative. A confidence interval estimates a range of effect sizes compatible with sample uncertainty. These are three different questions. None is the probability our scientific idea is true.
 
 WHY AN ILLUSTRATIVE 20-POINT ADVANTAGE WHEN WE OBSERVED 16?
-Twenty points is a transparent hypothetical design target, not a replacement for the observed result. We chose it for a planning illustration. Its assumptions are human-only success on 30% and AI-only success on 10% of images. Many populations could have a 20-point difference with different disagreement rates, so a difference alone is not enough to calculate paired-test power. Both assumptions are needed. A future justified sample-size plan should specify a practically meaningful target using pilot or external evidence before collecting that study’s data.
+Twenty points is a transparent hypothetical design target, not a replacement for the observed result. We used it as the planning target before collection. Its assumptions are human-only success on 30% and AI-only success on 10% of images. Many populations could have a 20-point difference with different disagreement rates, so a difference alone is not enough to calculate paired-test power. Both assumptions are needed. A future justified sample-size plan should specify a practically meaningful target using pilot or external evidence before collecting that study’s data.
 
 WHAT CAN AND CANNOT BE SAID ABOUT INSUFFICIENT POWER
 We can say 50 pairs give limited precision, as seen in the broad confidence interval, and that power under plausible scenarios can be modest. We cannot say lack of power proves a real human advantage exists. We cannot guarantee that 17 more pairs would make this particular finding significant. Adding data until significance appears is a different, potentially invalid stopping rule. A new planned study could find a smaller advantage, equality, or an AI advantage.
 
 FOR THE CLASS RUBRIC
-This is an explicit, reproducible power sensitivity analysis, with assumptions and software documented. Because it was completed after collection, it is not a prospective sample-size justification. Acknowledge that limitation openly in the report. The correct remedy is to use the pilot information to plan the next study, not to rewrite the chronology.
+The repository reproduces the planning calculation and documents our assumptions and feasibility decision. We selected 50 despite lower power than the conventional 80% target. Additional scenarios show sensitivity to different assumed advantages. A larger sample was not guaranteed to establish significance.
 
 CONNECTION TO THE COURSE WORKBOOK
 The workbook’s power chapter links sample size, effect size, significance threshold and power. The common t-test power examples in that chapter concern continuous means. Our data are paired binary outcomes, so the exact binomial/McNemar calculation is appropriate instead of inserting a Cohen’s d into a t-test calculator.

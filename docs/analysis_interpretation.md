@@ -36,7 +36,7 @@ Mean is the arithmetic average; median is the middle ordered observation. The bo
 
 ![Descriptive timing](../results/figures/timing_descriptive.png)
 
-## Power: explicit retrospective planning scenarios
+## Power and sample size planning
 
 Power is the chance of rejecting the null when a specified alternative is true. It is not the probability our conclusion is correct. Power here depends on both the probability and direction of disagreements.
 
@@ -49,7 +49,7 @@ For independent pairs, assume human-only success probability 0.30 and AI-only su
 | .30 / .10 | 20 points | 67.9% | 67 |
 | .35 / .10 | 25 points | 82.2% | 48 |
 
-These are hypothetical scenarios **calculated after data collection**, not observed power offered as new evidence or an advance justification for 50. The 20-point planning target is not substituted for the observed 16-point estimate. A new study should select meaningful assumptions and sample size prospectively; 17 more observations are not guaranteed to produce significance. The follow-up should use a sample size and stopping rule chosen in advance.
+We used the .30/.10 scenario before collection to assess sample size, and chose 50 pairs for feasibility despite its lower power. The calculation first reaches 80% at 67 pairs; choosing 68 pairs gives 81.10%. The other rows illustrate how different assumed effects and disagreement probabilities change power. These are assumption-based calculations, not power estimated from the final observed effect. Our planned 20-point advantage remains distinct from the observed 16-point difference. Adding 17 or 18 observations to the current dataset would not guarantee significance; a follow-up should set its sample size and stopping rule in advance.
 
 ![Planning curve](../results/figures/power_planning.png)
 
@@ -67,4 +67,4 @@ A significant accuracy difference would not by itself establish a secure CAPTCHA
 
 ## Limits and recommendation
 
-Convenience recruitment, one reported model/effort setting, selected stripe design, missing wrong-answer strings, unequal timing, no ordinary-text control and retrospective power planning limit conclusions. Fresh chats evaluate first-attempt behavior, not an informed attacker using hints, retries or image tools. More representative recruitment, controlled design variation, comparable timing, held-out challenges and prospective power planning are the appropriate next steps.
+Convenience recruitment, one reported model/effort setting, selected stripe design, missing wrong-answer strings, unequal timing, no ordinary-text control and a sample size below the conventional power target under the planning assumptions limit conclusions. Fresh chats evaluate first-attempt behavior, not an informed attacker using hints, retries or image tools. More representative recruitment, controlled design variation, comparable timing, held-out challenges and prospective power planning are the appropriate next steps.
