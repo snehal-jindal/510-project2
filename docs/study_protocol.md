@@ -4,10 +4,10 @@
 
 - **Question:** higher human exact-code accuracy than one selected model on striped codes?
 - **Units:** 50 distinct human volunteers, each assigned one fresh image; identical images paired with 50 model responses. The image/person pair is the sampling unit.
-- **Recruitment:** available volunteers entering/leaving Duke library, a convenience sample. This is not probability sampling. The researcher described the sample as mostly young; ages were not formally recorded.
+- **Recruitment:** available volunteers entering/leaving Duke library, a convenience sample. This is not probability sampling. We observed that our sample was mostly young; ages were not formally recorded.
 - **Inputs:** six-character mixed letter/number codes. The exact 50 PNGs are supplied, not regenerated approximations. Each is 1000×240 pixels. Original image-to-ID order follows numbered labels in the provided Google Doc.
-- **Rendering setting:** researcher reported the maximum stripe-width/spacing setting of 16, described as “16 pts.” The archived browser implementation calls this parameter `pitch` and applies it in canvas pixels; do not interpret it as a verified physical point measurement. Font/rasterization/screen zoom can affect perception.
-- **AI:** researcher-reported GPT-6.1 Sol, medium effort; fresh chat for every image; first response recorded. Exact prompt: **“read the random code hidden in the image”**.
+- **Rendering setting:** we used the maximum stripe-width/spacing setting of 16, described as “16 pts.” The archived browser implementation calls this parameter `pitch` and applies it in canvas pixels; do not interpret it as a verified physical point measurement. Font/rasterization/screen zoom can affect perception.
+- **AI:** GPT-6.1 Sol, medium effort; fresh chat for every image; first response recorded. Exact prompt: **“read the random code hidden in the image”**.
 - **Human deadline:** 20 seconds. Incorrect, timeout and give-up outcomes remain unsuccessful.
 - **AI time:** displayed “Worked for…” value, without an equivalent enforced 20-second cutoff. It is not a validated measure of human-comparable reading time.
 - **Primary endpoint:** all six characters correct. Case and surrounding whitespace are ignored; confusions such as 2/Z and 5/S are not corrected.
@@ -15,7 +15,7 @@
 
 ## What was not recorded or controlled
 
-The exact collection date, display device/zoom, viewing distance, visual acuity, detailed demographic characteristics, assignment seed, exact stopwatch start/stop behavior and any model-internal tools are not established in the supplied records. Do not fill them in from guesswork. The raw sheet export date is November 2, 2026; that is **not asserted to be the trial date**. No ordinary-text control was collected. More numbers, O/X similarities and U/J confusions were not prospectively randomized interventions.
+The exact collection date, display device/zoom, viewing distance, visual acuity, detailed demographic characteristics, assignment seed, exact stopwatch start/stop behavior and any model-internal tools are not established in the supplied records. We leave these details unspecified. Our raw sheet export date is November 2, 2026; that is **not asserted to be the trial date**. No ordinary-text control was collected. More numbers, O/X similarities and U/J confusions were not prospectively randomized interventions.
 
 ## Analysis decisions and chronology
 

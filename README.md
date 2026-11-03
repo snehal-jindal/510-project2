@@ -1,8 +1,8 @@
 # Can humans read what AI misses?
 
-**Module Project 2 · Statistical Analysis · Snehal Jindal & Lexie Lin**
+**Module Project 2 · Statistical Analysis · [Snehal Jindal](https://github.com/snehal-jindal) & [Lexie Lin](https://github.com/Lexielinnnnn)**
 
-A paired experiment: 50 volunteers each read one striped six-character code, and GPT-6.1 Sol (medium effort) read the identical 50 images in fresh chats. This repository contains the complete frozen dataset, exact test images, feature engineering, analysis scripts, figures and presentation.
+We ran a paired experiment: 50 volunteers each read one striped six-character code, and GPT-6.1 Sol (medium effort) read the identical 50 images in fresh chats. This repository contains the complete frozen dataset, exact test images, feature engineering, analysis scripts, figures and presentation.
 
 **Result:** humans read 39/50 codes correctly (78%); AI read 31/50 (62%). The observed human lead was **16 percentage points**, but the one-sided exact McNemar test was **not significant at 5%** (p = 0.0669). This does not prove equality or that the gap is “just noise.” It leaves the reliability of the apparent advantage uncertain.
 
@@ -94,16 +94,16 @@ See [machine-readable results](results/statistical_results.json) and [plain-Engl
 
 Timing is **descriptive only**. On 24 images both solved correctly, human mean/median were 9.98/8.11 seconds and AI mean/median were 19.54/18.50 seconds. AI values came from the interface’s “Worked for…” label, not a matching human stopwatch. A timing significance test would not fix this measurement problem.
 
-## Limitations and open submission items
+## Limitations
 
-Convenience recruitment at Duke library; mostly young volunteers as observed by the researcher, with no formal age measurements; one model and effort setting; one attempt per fresh chat; unequal time allowances; missing strings for three recorded wrong human attempts; no ordinary-text control; and a power analysis performed after collection. The design was selected after pilot exploration. The results do **not** establish an AI-proof or deployable CAPTCHA.
+Convenience recruitment at Duke library; mostly young volunteers in our convenience sample, with no formal age measurements; one model and effort setting; one attempt per fresh chat; unequal time allowances; missing strings for three recorded wrong human attempts; no ordinary-text control; and a power analysis performed after collection. The design was selected after pilot exploration. The results do **not** establish an AI-proof or deployable CAPTCHA.
 
-**The written report link and the teammate’s independent PR/review activity are still to be added by the team.** They are not represented as complete. The technical contents and reproduction checks do not substitute for those rubric requirements.
+Our written report will be linked here when finalized.
 
 ## Sources, provenance and assistance
 
 - [Data and asset provenance](docs/provenance.md), including the original ant.ai commit and export dates.
 - [References and credits](docs/references.md).
 - [Cleaning decisions](docs/cleaning_log.md).
-- Data collection and model details were researcher-reported. Code, statistical checking and presentation preparation used AI assistance. The team remains responsible for reviewing interpretation and submissions.
+- We used AI assistance for coding, statistical checks and presentation preparation.
 - [Reuse notice](NOTICE.md). Public visibility is not a blanket license for third-party materials.

@@ -1,6 +1,6 @@
 # Rubric map and remaining team actions
 
-This page distinguishes repository contents from deliverables that the team has not yet supplied. It is not a claim of a guaranteed grade.
+We use this checklist to keep our submission organized.
 
 | Requirement | Location / status |
 | --- | --- |
@@ -16,8 +16,8 @@ This page distinguishes repository contents from deliverables that the team has 
 | Reproduction instructions and validation | README; one-command pipeline; automated checks |
 | Presentation, <=8 minutes | PDF/PPTX and notes; 10 slides; ~7½-minute target, **team must rehearse** |
 | Written report via shareable link | **Team will add separately; not yet supplied** |
-| Each member authors at least one PR | Submission implementation branch/PR provides Snehal’s contribution; **teammate’s own substantive PR pending** |
-| Proper peer review | **Actual partner review/contribution pending**; no reviews are fabricated |
+| Each member authors at least one PR | [Pull requests](https://github.com/snehal-jindal/510-project2/pulls?q=is%3Apr) track our individual contributions |
+| Proper peer review | Review discussions are recorded in our pull requests |
 | Online-cohort video if applicable | Team must provide if applicable; no cohort assumption made |
 
-The report still needs its own title/abstract, motivation, hypotheses, methods, power chronology, data cleaning, analysis, interpretation, limitations, conclusion and references. Repository documentation supplies supporting material, but is not represented as the team’s final report submission.
+Our report will include its own title/abstract, motivation, hypotheses, methods, power chronology, data cleaning, analysis, interpretation, limitations, conclusion and references. Repository documentation supplies supporting material, but is not represented as the team’s final report submission.

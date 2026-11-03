@@ -11,6 +11,6 @@ Snapshot/export date: **November 2, 2026** (America/New_York). This is an export
 
 The copied generator is pinned to **a4321261d4097adf885d9938a364045c98711cb1**. It implements four earlier exploratory methods, but only the static striped-code inputs belong to this 50-pair dataset. Informal project-1 examples and Florence experiments are not mixed into this analysis. This study does not claim novel invention of striped fonts or motion-based text.
 
-Source-image checksums and sizes are in `data/image_manifest.json`. Temporary signed image/download URLs, Google authorization data, repository credentials and full private connector responses are excluded. The source PNGs are preserved without resizing or regenerating them. Ground-truth strings come from the researcher’s result sheet, not model OCR guesses.
+Source-image checksums and sizes are in `data/image_manifest.json`. Temporary signed image/download URLs, Google authorization data, repository credentials and full private connector responses are excluded. The source PNGs are preserved without resizing or regenerating them. Ground-truth strings come from our result sheet, not model OCR guesses.
 
 Live Google files can change; the checked-in snapshots define the submitted analysis. If you update the data or deck, replace the snapshots deliberately, rerun the full pipeline, document the change and check that all rounded slide values still agree. Do not silently move the reported dataset.
