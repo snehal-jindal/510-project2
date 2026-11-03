@@ -25,8 +25,9 @@ We ran a paired experiment: 50 volunteers each read one striped six-character co
 
 Can humans read these striped codes more accurately than the selected model under the specified testing procedures?
 
-- **Null:** equal whole-code accuracy.
-- **Alternative:** higher human whole-code accuracy.
+- **Null:** Humans and the selected AI model are equally accurate at reading striped codes.
+- **Alternative:** Humans are more accurate than the selected AI model at reading striped codes.
+
 
 One matched pair is an image, its human response and its AI response. There are **50 paired units**, not 100 independent observations. Humans had a 20-second limit; AI had no equivalent limit. This operational comparison must not be generalized to equal-time reading ability or all models.
 
@@ -60,7 +61,6 @@ The pipeline regenerates:
 6. Exact-test power scenarios and all analysis figures.
 7. Validation of image checksums, pair counts and agreement with presentation statistics.
 
-![All 50 paired outcomes](results/figures/paired_outcomes.png)
 
 ## Which script does what?
 
@@ -91,6 +91,10 @@ The original trials were conducted manually. Collection software from the earlie
 | Two-sided exact McNemar p, for transparency | 0.133801 |
 
 See [machine-readable results](results/statistical_results.json) and [plain-English interpretation](docs/analysis_interpretation.md). The two p-values describe the same paired comparison; they are not independent discoveries or a choice made to obtain significance.
+
+![All 50 paired outcomes](results/figures/paired_outcomes.png)
+
+![Time description for human and AI](results/figures/timing_descriptive.png)
 
 Timing is **descriptive only**. On 24 images both solved correctly, human mean/median were 9.98/8.11 seconds and AI mean/median were 19.54/18.50 seconds. AI values came from the interface’s “Worked for…” label, not a matching human stopwatch. A timing significance test would not fix this measurement problem.
 
