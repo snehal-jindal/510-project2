@@ -93,7 +93,8 @@ The original trials were conducted manually. Collection software from the earlie
 See [machine-readable results](results/statistical_results.json) and [plain-English interpretation](docs/analysis_interpretation.md). The two p-values describe the same paired comparison; they are not independent discoveries or a choice made to obtain significance.
 
 ![All 50 paired outcomes](results/figures/paired_outcomes.png)
-! [Time description for human and AI](results/figures/timing_descriptive.png)
+
+![Time description for human and AI](results/figures/timing_descriptive.png)
 
 Timing is **descriptive only**. On 24 images both solved correctly, human mean/median were 9.98/8.11 seconds and AI mean/median were 19.54/18.50 seconds. AI values came from the interface’s “Worked for…” label, not a matching human stopwatch. A timing significance test would not fix this measurement problem.
 
