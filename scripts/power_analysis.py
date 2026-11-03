@@ -1,4 +1,4 @@
-"""Exact McNemar planning scenarios, computed after collection, not a priori."""
+"""Reproduce exact McNemar power calculations for planning and sensitivity analysis."""
 import numpy as np
 from scipy.stats import binom
 from common import ROOT, write_csv

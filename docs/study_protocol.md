@@ -19,7 +19,7 @@ The exact collection date, display device/zoom, viewing distance, visual acuity,
 
 ## Analysis decisions and chronology
 
-The directional human-superiority hypothesis and paired exact-test approach were discussed before the final analysis. There was no formal preregistration. Sample size 50 was a feasible collection target, not justified by a documented prospective calculation. Power calculations were performed after collection and are identified as planning/sensitivity scenarios. Code settings were selected after pilot exploration; pilot anecdotes are not additional final-study observations.
+The directional human-superiority hypothesis and paired exact-test approach were discussed before the final analysis. There was no formal preregistration. Before collection, we considered a human-only success probability of 0.30 and an AI-only success probability of 0.10, corresponding to a 20 percentage point accuracy advantage. At a one-sided 5% significance threshold, 50 pairs provide 67.85% power. The exact calculation first reaches 80% at 67 pairs; 68 pairs provide 81.10%. We chose 50 pairs for feasibility, accepting lower power than the conventional 80% target. The additional scenarios in the repository show sensitivity to other assumptions. Code settings were selected after pilot exploration; pilot anecdotes are not additional final-study observations.
 
 ## Collection software versus analysis reproduction
 
