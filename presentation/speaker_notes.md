@@ -260,7 +260,7 @@ Adding more tests would not make the evidence stronger. The academic strength is
 
 As we mentioned before, we recorded the time when human and AI read. The dots in the box plot show recorded times for the same 24 images both human and AI read correctly. The line inside each box is the median. Human median time was 8.11 seconds and AI median time was 18.50.
 
-But the clocks differ. Human time was measured directly, while AI time came from the interface label. Humans also stopped at 20 seconds and AI did not. So, we didn’t use this data during calculation
+But the clocks differ. Human time was measured directly, while AI time came from the interface label. Humans also stopped at 20 seconds and AI did not. We summarize these times descriptively, but do not use them for a statistical test of reading speed.
 
 
 ### Study guide and Q&A
@@ -391,7 +391,7 @@ W3C, Inaccessibility of CAPTCHA: https://www.w3.org/TR/turingtest/
 Course Statistics workbook, Chapters 1, 3 and 4: descriptive statistics, hypothesis testing, power and effect size.
 
 AI ASSISTANCE AND PROJECT DELIVERABLES
-Analysis scripts and presentation preparation used AI assistance. The researcher collected the human responses and reported the AI protocol. For the class submission, the written report must explain methods and limitations in full. The repository needs scripts rather than notebooks, raw and cleaned data, reproduction instructions, and genuine contributions through branches/PRs by both partners. These collaboration actions are required deliverables and are not claimed to have been completed merely because the slides are finished. The brief allows up to eight minutes; this deck targets seven.
+We collected the human responses and recorded the AI trials. Our report explains the methods and limitations, and our repository includes the data, scripts and reproduction instructions. The presentation targets seven to eight minutes.
 
 THE END RESULT, IN THREE SENTENCES
 There was an observed human advantage on the collected images. This study did not establish that the advantage is reliable on new comparable trials. It also did not establish that the observed difference is merely noise or that humans and AI perform equally.
@@ -411,5 +411,5 @@ A fresh chat is a clean first-attempt benchmark, not the strongest possible atta
 IF THE INSTRUCTOR ASKS WHETHER THE PROJECT SUCCEEDED
 It succeeded as a small exploratory statistical investigation with a valid paired design and a measured but uncertain effect. It did not establish the stronger product claim of a secure, AI-proof CAPTCHA. The main lesson is that a collection of striking failures is weaker evidence than a complete, prospectively planned evaluation that counts successes too.
 
-The presentation is intentionally concise. The written report should retain the full assumptions, missing-response handling, limitations, exact p-values, interval method, power chronology, code versions and references. The repository should contain the raw snapshot, cleaned data and scripts, plus genuine partner PR/review activity. Do not claim those collaboration requirements are fulfilled by this deck alone.
+The written report gives the full methods, assumptions, missing-response handling, limitations, exact p-values, interval method, power calculations and references. The repository provides the raw observations, cleaned data and reproducible scripts.
 

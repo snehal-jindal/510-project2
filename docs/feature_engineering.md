@@ -17,4 +17,4 @@ Feature engineering is relevant even though this is not an ML training project. 
 | `ai_abstained` | Explicit inability to read; does not imply an AI deadline was enforced |
 | `ai_edit_distance` | Exploratory Levenshtein distance for actual AI transcriptions, blank for abstentions |
 
-Only case and surrounding whitespace are normalized. Visually confusable characters remain distinct. The raw sheet and recorded labels remain available for audit. Features do not impute missing human strings, infer ages or pretend that partial accuracy was measured equally for both readers.
+Only case and surrounding whitespace are normalized. Visually confusable characters remain distinct. The raw sheet and recorded labels remain available for audit. Missing human strings remain missing. Ages were not collected, and partial character accuracy is not used for the human–AI comparison.
