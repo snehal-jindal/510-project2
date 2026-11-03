@@ -1,0 +1,352 @@
+[
+  {
+    "pair_id": 1,
+    "image_file": "data/images/image_01.png",
+    "sha256": "9003652ce5c57c7e811fc27f1a5429e2278bb4928eb8ed3b6387f269c036522e",
+    "width_px": 1000,
+    "height_px": 240
+  },
+  {
+    "pair_id": 2,
+    "image_file": "data/images/image_02.png",
+    "sha256": "5724093671793a59db596c6e8caeb77a83f6203b5f64b3e3669552106aa3ac36",
+    "width_px": 1000,
+    "height_px": 240
+  },
+  {
+    "pair_id": 3,
+    "image_file": "data/images/image_03.png",
+    "sha256": "33dfbf63c7eeff4fd3c590761fcb58e729dfb2095e9f065cfa87a461530ab8ef",
+    "width_px": 1000,
+    "height_px": 240
+  },
+  {
+    "pair_id": 4,
+    "image_file": "data/images/image_04.png",
+    "sha256": "282c3716e9984a8511a820b8df7b6faf08d69a402a7d42013d41ec98b2aa55d6",
+    "width_px": 1000,
+    "height_px": 240
+  },
+  {
+    "pair_id": 5,
+    "image_file": "data/images/image_05.png",
+    "sha256": "8c9969de3e365da85c5b574968ef23111770415f08475cac868bf833696f18a2",
+    "width_px": 1000,
+    "height_px": 240
+  },
+  {
+    "pair_id": 6,
+    "image_file": "data/images/image_06.png",
+    "sha256": "5cf38da2f37a9fddce29fb2ae142418a73603708f3b712d2e64bc3f931ce68bb",
+    "width_px": 1000,
+    "height_px": 240
+  },
+  {
+    "pair_id": 7,
+    "image_file": "data/images/image_07.png",
+    "sha256": "c82dac5fe98ae68f914440b1a5b5d74bfd10d96c5216d5a8f959986baa4a2cb7",
+    "width_px": 1000,
+    "height_px": 240
+  },
+  {
+    "pair_id": 8,
+    "image_file": "data/images/image_08.png",
+    "sha256": "d423638b1532dc82df3767447baf03f51da92a6636f735fba9f6141fca8a2fc2",
+    "width_px": 1000,
+    "height_px": 240
+  },
+  {
+    "pair_id": 9,
+    "image_file": "data/images/image_09.png",
+    "sha256": "9e6d25b7a4e6d8bb1f8aa2f9d1aaf97e0377be4df07ecd9f1845baea0f868147",
+    "width_px": 1000,
+    "height_px": 240
+  },
+  {
+    "pair_id": 10,
+    "image_file": "data/images/image_10.png",
+    "sha256": "140d40e9c74e6c35555e595fa35fa6ea0082bbe8327ddc4d7fa13438561984ea",
+    "width_px": 1000,
+    "height_px": 240
+  },
+  {
+    "pair_id": 11,
+    "image_file": "data/images/image_11.png",
+    "sha256": "afaa33d2815fdec2f64e08b218d1e595e12431f7cd34fd4f5cf3740b982fe3eb",
+    "width_px": 1000,
+    "height_px": 240
+  },
+  {
+    "pair_id": 12,
+    "image_file": "data/images/image_12.png",
+    "sha256": "03a3761df89c6cf1e096db48785de30454af3710e5a08a59d6db6f96e5985757",
+    "width_px": 1000,
+    "height_px": 240
+  },
+  {
+    "pair_id": 13,
+    "image_file": "data/images/image_13.png",
+    "sha256": "cac897f9935eb8b1346bc806a7158bdde24b89f9e71569bb618d7d69764eca7c",
+    "width_px": 1000,
+    "height_px": 240
+  },
+  {
+    "pair_id": 14,
+    "image_file": "data/images/image_14.png",
+    "sha256": "a09eb67108e84e3f2a6b20892fa5e1d38bb82bcf47d0080b4fa84c40ce9eab0a",
+    "width_px": 1000,
+    "height_px": 240
+  },
+  {
+    "pair_id": 15,
+    "image_file": "data/images/image_15.png",
+    "sha256": "0871b68faf3128ab2031a9559a8028a0dc49762ce95116cf01cef2d13a315a53",
+    "width_px": 1000,
+    "height_px": 240
+  },
+  {
+    "pair_id": 16,
+    "image_file": "data/images/image_16.png",
+    "sha256": "a835ae6f6bbf8eb7698750d0677cbcd405c49abba00c615478e597136658d411",
+    "width_px": 1000,
+    "height_px": 240
+  },
+  {
+    "pair_id": 17,
+    "image_file": "data/images/image_17.png",
+    "sha256": "a2f48c372856f3f618de6f8656dd7d5e33c11ed6ea3b526df0e5eafce6ec563c",
+    "width_px": 1000,
+    "height_px": 240
+  },
+  {
+    "pair_id": 18,
+    "image_file": "data/images/image_18.png",
+    "sha256": "4dcb9a374b16afb469158af3fab567c93e4f18716803c6341a3444a2bd9216b0",
+    "width_px": 1000,
+    "height_px": 240
+  },
+  {
+    "pair_id": 19,
+    "image_file": "data/images/image_19.png",
+    "sha256": "b84133166a08db54536ced1906e1fcc8229fd17f1644a5b1c2dd354cc21dc10a",
+    "width_px": 1000,
+    "height_px": 240
+  },
+  {
+    "pair_id": 20,
+    "image_file": "data/images/image_20.png",
+    "sha256": "951a5662910920bf4999be231ff72aaab0ec30992e735639d4754c256429a808",
+    "width_px": 1000,
+    "height_px": 240
+  },
+  {
+    "pair_id": 21,
+    "image_file": "data/images/image_21.png",
+    "sha256": "5e1e87b6a2e81c7c2e937e7422762987fe36490f067a9bc71d9b9dc30b96942a",
+    "width_px": 1000,
+    "height_px": 240
+  },
+  {
+    "pair_id": 22,
+    "image_file": "data/images/image_22.png",
+    "sha256": "3369139fd832fa3c2d28c997ce7bae56f95f2fbf2b1f046eab8f833a0be1e3f3",
+    "width_px": 1000,
+    "height_px": 240
+  },
+  {
+    "pair_id": 23,
+    "image_file": "data/images/image_23.png",
+    "sha256": "1eb3afcfc2b303d376cb7de7c4789c2549fc0c57a9b16faa5cc2bfe64c468cb1",
+    "width_px": 1000,
+    "height_px": 240
+  },
+  {
+    "pair_id": 24,
+    "image_file": "data/images/image_24.png",
+    "sha256": "7182e43b997df2bd74a4fc0be7a1c65aa6869147bd53f61e19295b87937aaae6",
+    "width_px": 1000,
+    "height_px": 240
+  },
+  {
+    "pair_id": 25,
+    "image_file": "data/images/image_25.png",
+    "sha256": "02925ec884100910d456bee8d3c9d0b9628ad1e1389edffa5ed7b181e45a7264",
+    "width_px": 1000,
+    "height_px": 240
+  },
+  {
+    "pair_id": 26,
+    "image_file": "data/images/image_26.png",
+    "sha256": "b1a4a249d54fabb9245b141ac81d22aad46ddf89960128284afa3ea8116a2121",
+    "width_px": 1000,
+    "height_px": 240
+  },
+  {
+    "pair_id": 27,
+    "image_file": "data/images/image_27.png",
+    "sha256": "fea2480102aac4078322b0717f646db826a1a1286789b202d7d83f64b58bf935",
+    "width_px": 1000,
+    "height_px": 240
+  },
+  {
+    "pair_id": 28,
+    "image_file": "data/images/image_28.png",
+    "sha256": "c0991d2f398fde7c4326ca03ea96696a927f4f62a2e15b575e792ba9d66526c5",
+    "width_px": 1000,
+    "height_px": 240
+  },
+  {
+    "pair_id": 29,
+    "image_file": "data/images/image_29.png",
+    "sha256": "30daefb9a59001826293c5fb69a535d408b4cdf84f0d78fa778a53eab37a760c",
+    "width_px": 1000,
+    "height_px": 240
+  },
+  {
+    "pair_id": 30,
+    "image_file": "data/images/image_30.png",
+    "sha256": "57dac69c2e76cf0db5710e6cb8954e766d2b6587b7e1d5c12400ebbb44348dc1",
+    "width_px": 1000,
+    "height_px": 240
+  },
+  {
+    "pair_id": 31,
+    "image_file": "data/images/image_31.png",
+    "sha256": "d5d9df3272ae967aacfaf61701f2a9cc2be367ed5c24c06618b968983a829150",
+    "width_px": 1000,
+    "height_px": 240
+  },
+  {
+    "pair_id": 32,
+    "image_file": "data/images/image_32.png",
+    "sha256": "9f2b09428b9859d4205e8d146c3b785f31f365a4d344d97e026512f93c5daa56",
+    "width_px": 1000,
+    "height_px": 240
+  },
+  {
+    "pair_id": 33,
+    "image_file": "data/images/image_33.png",
+    "sha256": "403a04e98e3d3285e7b30a5ce1ac9802f3748700f8c877ec0b1fe1dc345853b0",
+    "width_px": 1000,
+    "height_px": 240
+  },
+  {
+    "pair_id": 34,
+    "image_file": "data/images/image_34.png",
+    "sha256": "183782dfa0ddcacf909904cb9f652a9c12af54f882a321802f1228ffaadbd692",
+    "width_px": 1000,
+    "height_px": 240
+  },
+  {
+    "pair_id": 35,
+    "image_file": "data/images/image_35.png",
+    "sha256": "dcd745591e26e0aa574e50dac56441ce7f88f476aa399ca7332e0e5b02c56c7d",
+    "width_px": 1000,
+    "height_px": 240
+  },
+  {
+    "pair_id": 36,
+    "image_file": "data/images/image_36.png",
+    "sha256": "30b3c9d4f5bd3db354bec47bfd9c5a2248389a7a7ba08ee159fc9d63486bcc39",
+    "width_px": 1000,
+    "height_px": 240
+  },
+  {
+    "pair_id": 37,
+    "image_file": "data/images/image_37.png",
+    "sha256": "b2186de38fb1aefc3ee9e8fca18ef3cb6cd8b99cd20c47ead3dc15a763acca80",
+    "width_px": 1000,
+    "height_px": 240
+  },
+  {
+    "pair_id": 38,
+    "image_file": "data/images/image_38.png",
+    "sha256": "f68e79b781ff2f0649bf17db6ff4d4739805d3aaf5e2963ef42c8cdf5ee0c918",
+    "width_px": 1000,
+    "height_px": 240
+  },
+  {
+    "pair_id": 39,
+    "image_file": "data/images/image_39.png",
+    "sha256": "b523a8ed1ed400cac78fd211b9c952adc0745d31a875f27ab87a09b7baaa596c",
+    "width_px": 1000,
+    "height_px": 240
+  },
+  {
+    "pair_id": 40,
+    "image_file": "data/images/image_40.png",
+    "sha256": "3898efd4687709c880ce6c969e9bc1dd241743d35392d5dda7bc01aad27ef3f7",
+    "width_px": 1000,
+    "height_px": 240
+  },
+  {
+    "pair_id": 41,
+    "image_file": "data/images/image_41.png",
+    "sha256": "675bdd63e81eedf05c59e1d586c3f4a8467bd0f1de3119e38ac2cc034703e943",
+    "width_px": 1000,
+    "height_px": 240
+  },
+  {
+    "pair_id": 42,
+    "image_file": "data/images/image_42.png",
+    "sha256": "21202ad806e8a41b527a8e00e7053d2d89be812eb6853688e9940101bc8fef9b",
+    "width_px": 1000,
+    "height_px": 240
+  },
+  {
+    "pair_id": 43,
+    "image_file": "data/images/image_43.png",
+    "sha256": "a3c22c56f6f9074bc9d1ae1dc67bc8a49c4e08de4ffadfc7f215eaa9e5a95dc1",
+    "width_px": 1000,
+    "height_px": 240
+  },
+  {
+    "pair_id": 44,
+    "image_file": "data/images/image_44.png",
+    "sha256": "4f8acc89de3a7df4a1ee13acdc32a14cd05f9f6f198d7dbb4511b43cfa13c176",
+    "width_px": 1000,
+    "height_px": 240
+  },
+  {
+    "pair_id": 45,
+    "image_file": "data/images/image_45.png",
+    "sha256": "a35a46eeeb0b8c432a3ecebc32d5b24b1eab81126c812e9d90159574cff31590",
+    "width_px": 1000,
+    "height_px": 240
+  },
+  {
+    "pair_id": 46,
+    "image_file": "data/images/image_46.png",
+    "sha256": "a7350eb339be477199a7264b3c950d11c09627c43c6436b323fe922278bb42c9",
+    "width_px": 1000,
+    "height_px": 240
+  },
+  {
+    "pair_id": 47,
+    "image_file": "data/images/image_47.png",
+    "sha256": "8acbfe3b69505f548853866705f570acdb4424ea32072f119d840f18fa65dbbe",
+    "width_px": 1000,
+    "height_px": 240
+  },
+  {
+    "pair_id": 48,
+    "image_file": "data/images/image_48.png",
+    "sha256": "af89c060e82c5a280590a64b04d1c579ebde0930ff3f81287497d0fc597ccab8",
+    "width_px": 1000,
+    "height_px": 240
+  },
+  {
+    "pair_id": 49,
+    "image_file": "data/images/image_49.png",
+    "sha256": "b8b3d9d06073c252f9b772f9697a72dff22bce2f8a1532200bedd0c250ef9941",
+    "width_px": 1000,
+    "height_px": 240
+  },
+  {
+    "pair_id": 50,
+    "image_file": "data/images/image_50.png",
+    "sha256": "fc9a8918cecac510030b68a1d2499828db0a1e89533439683c07f35e3774cc25",
+    "width_px": 1000,
+    "height_px": 240
+  }
+]
